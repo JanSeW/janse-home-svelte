@@ -29,12 +29,10 @@
 				</p>
 			</div>
 		</div>
-		<div class="flex flex-col items-center bg-gray-700">
-			<p class="text-white">I ❤️</p>
+		<div class="flex flex-row justify-center items-center bg-gray-700 p-6 h-36">
 			<Slider />
 		</div>
-		<div
-			class="flex flex-row items-center p-16 rounded-b-[6px] h-[45vh] bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500">
+		<div class="flex flex-row items-center p-16 rounded-b-[6px] h-[45vh] bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500">
 			<p class="font-black text-white text-8xl">
 				Stay <br />
 				in touch.
