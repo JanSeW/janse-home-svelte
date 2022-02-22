@@ -2,9 +2,9 @@
 	import { slide } from 'svelte/transition';
 	import { scale } from 'svelte/transition';
 
-	const next_icon = 'static/next_ico.svg';
-	const svelte_icon = 'static/svelte_ico.svg';
-	const vue_icon = 'static/vue_ico.svg';
+	const next_icon = 'next_ico.svg';
+	const svelte_icon = 'svelte_ico.svg';
+	const vue_icon = 'vue_ico.svg';
 
 	let visible = true;
 	let slideNo = 0;
