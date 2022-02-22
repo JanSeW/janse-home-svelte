@@ -6,7 +6,7 @@ const config = {
 	kit: {
 		adapter: adapter({
 			pages: 'build',
-			assets: 'build/static',
+			assets: 'build',
 			fallback: null,
 			precompress: false
 		})
