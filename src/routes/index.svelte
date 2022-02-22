@@ -29,7 +29,7 @@
 				</p>
 			</div>
 		</div>
-		<div class="flex flex-row justify-center items-center bg-gray-700 p-6 h-36">
+		<div class="flex flex-row items-center bg-gray-700 h-36 justify-center">
 			<Slider />
 		</div>
 		<div class="flex flex-row items-center p-16 rounded-b-[6px] h-[45vh] bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500">
