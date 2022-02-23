@@ -33,11 +33,11 @@
 			<Slider />
 		</div>
 		<div class="flex flex-row items-center p-16 rounded-b-[6px] h-[45vh] bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500">
-			<p class="font-black text-white text-8xl">
+			<p class="w-[60vw] font-black text-white text-8xl">
 				Stay <br />
 				in touch.
 			</p>
-			<div><!-- TODO: Create grid with Social Media and Mail Contact --></div>
+			<p class="text-white font-bold text-4xl">Write me at <b><u><a href="mailto:hey@janse.xyz" title="Send a mail to me" target="_blank">hey@janse.xyz</a></u></b></p>
 		</div>
 	</div>
 </main>
