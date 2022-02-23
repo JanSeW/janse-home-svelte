@@ -1,6 +1,6 @@
 <script>
 	import Slider from '../components/Slider.svelte';
-	import ImgJanse from '../../static/janse.webp?width=672?height=896?quality=50'
+	import ImgJanse from '../../static/janse.webp?width=672?quality=50'
 </script>
 
 <svelte:head>
@@ -9,21 +9,21 @@
 	<link rel="icon" href="/favicon.png" />
 </svelte:head>
 
-<main>
+<main class="lg:px-8 2xl:max-w-fit m-auto">
 	<div class="m-4 w-auto shadow rounded-[6px]">
 		<div
-			class="flex flex-row-reverse items-center p-16 rounded-t-[6px] h-[45vh] bg-gradient-to-r from-cyan-500 to-blue-500">
-			<p class="font-black text-white text-8xl">
+			class="flex flex-row items-center justify-center sm:justify-end p-8 sm:p-16 rounded-t-[6px] h-fit bg-gradient-to-r from-cyan-500 to-blue-500">
+			<p class="font-black text-white text-6xl text-center sm:text-right xl:text-8xl xl:pr-36 sm:pr-8">
 				Well, <br />
 				hello there.
 			</p>
 		</div>
-		<div class="flex flex-row">
+		<div class="flex flex-col sm:flex-row">
 			<div class="">
 				<img src={ImgJanse} alt="My beautiful beautiful face" loading="eager" decoding="async" width="672" height="896"/>
 			</div>
-			<div class="flex flex-col p-10 justify-center divide-y-4">
-				<h1 class="text-6xl pb-2">Hey, I&apos;m Janse</h1>
+			<div class="flex flex-col py-10 px-8 sm:p-10 justify-center divide-y-4">
+				<h1 class="text-4xl md:text-6xl pb-2">Hey, I&apos;m Janse</h1>
 				<p class="text-xl pt-1">
 					Lorem ipsum blablabla soon there will be some nice text here. If you&apos;re a good UI
 					designer and your eyes are bleeding right now I&apos;m deeply sorry.
@@ -33,12 +33,12 @@
 		<div class="flex flex-row items-center bg-gray-700 h-36 justify-center">
 			<Slider />
 		</div>
-		<div class="flex flex-row items-center p-16 rounded-b-[6px] h-[45vh] bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500">
-			<p class="w-[60vw] font-black text-white text-8xl">
+		<div class="flex flex-col justify-center sm:flex-row sm:justify-between items-center justify-center sm:justify-end p-8 sm:px-16 sm:py-8 space-y-4 rounded-b-[6px] h-fit bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500">
+			<p class="font-black text-white text-6xl text-center sm:text-left xl:text-8xl xl:pl-16 sm:pr-8">
 				Stay <br />
 				in touch.
 			</p>
-			<p class="text-white font-bold text-4xl">Write me at <b><u><a href="mailto:hey@janse.xyz" title="Send a mail to me" target="_blank">hey@janse.xyz</a></u></b></p>
+			<p class="text-white font-bold text-xl md:text-4xl pr-0 xl:p-36">Write me at <b><u><a href="mailto:hey@janse.xyz" title="Send a mail to me" target="_blank">hey@janse.xyz</a></u></b></p>
 		</div>
 	</div>
 </main>
