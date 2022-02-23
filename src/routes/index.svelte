@@ -1,5 +1,6 @@
 <script>
 	import Slider from '../components/Slider.svelte';
+	import ImgJanse from '../../static/janse.webp?width=672?height=896?quality=50'
 </script>
 
 <svelte:head>
@@ -18,8 +19,8 @@
 			</p>
 		</div>
 		<div class="flex flex-row">
-			<div class="h-auto w-[70vw]">
-				<img src="janse.jpg" alt="My beautiful beautiful face" />
+			<div class="">
+				<img src={ImgJanse} alt="My beautiful beautiful face" loading="eager" decoding="async" width="672" height="896"/>
 			</div>
 			<div class="flex flex-col p-10 justify-center divide-y-4">
 				<h1 class="text-6xl pb-2">Hey, I&apos;m Janse</h1>
