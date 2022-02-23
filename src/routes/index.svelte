@@ -38,7 +38,7 @@
 				Stay <br />
 				in touch.
 			</p>
-			<p class="text-white font-bold text-xl md:text-4xl pr-0 xl:p-36">Write me at <b><u><a href="mailto:hey@janse.xyz" title="Send a mail to me" target="_blank">hey@janse.xyz</a></u></b></p>
+			<p class="text-white font-bold text-xl text-center sm:text-right md:text-4xl pr-0 lg:p-[3vw]">Write me at <b><u><a href="mailto:hey@janse.xyz" title="Send a mail to me" target="_blank">hey@janse.xyz</a></u></b></p>
 		</div>
 	</div>
 </main>
